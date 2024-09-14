@@ -2,7 +2,8 @@
 
 This project implements a generic tree data structure in C++ with multiple traversal methods and visualization using the SFML library. It includes tests for validating tree operations using the `doctest` framework.
 
-![Tree Visualization]("C:\Users\omar_\Pictures\Screenshots\Screenshot 2024-09-14 235515.png")
+![Screenshot 2024-09-14 235515](https://github.com/user-attachments/assets/b7c7a0fd-0057-4599-80c9-8089495d4ca6)
+
 
 
 ## Files Overview
