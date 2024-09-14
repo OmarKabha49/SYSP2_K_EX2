@@ -11,11 +11,6 @@ This project implements a generic tree data structure in C++ with multiple trave
 - **complex.hpp**: A header file defining a `Complex` class used in the demo and tests.
 - **Makefile**: A script to compile the project, including building the demo and test executables.
 
-## Prerequisites
-
-- **C++17**: This project uses C++17 features.
-- **SFML**: The Simple and Fast Multimedia Library (SFML) is used for graphical visualization. Make sure SFML is installed on your system.
-- **doctest**: The testing framework `doctest` is used for running unit tests.
 
 ## How to Build and Run
 
@@ -53,22 +48,3 @@ This project implements a generic tree data structure in C++ with multiple trave
   - DFS (Depth-First Search)
   - Heap Traversal
   - Pre-Order, Post-Order, and In-Order Traversals are only applicable for binary trees (`k = 2`). For non-binary trees, these default to DFS.
-
-## Troubleshooting
-
-- **Font Loading Issue**: Ensure `arial.ttf` is in the correct directory. The project looks for `arial.ttf` in the current working directory by default. If it's not loading, check the working directory from which the executable is run and ensure `arial.ttf` is present there.
-- **SFML Installation**: Make sure SFML is installed and linked correctly. On some systems, you may need to install the development package (e.g., `libsfml-dev` on Ubuntu).
-
-## Future Improvements
-
-- Enhance error handling for file loading and invalid operations.
-- Extend the tree visualization to support more complex graphics and animations.
-- Implement additional tree operations such as deletion or balancing for binary trees.
-
-## License
-
-This project is open-source and available under the MIT License. Feel free to modify and use it as needed.
-
-## Contact
-
-For any issues or suggestions, feel free to open an issue in the repository or contact the author directly.
