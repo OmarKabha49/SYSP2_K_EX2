@@ -2,6 +2,9 @@
 
 This project implements a generic tree data structure in C++ with multiple traversal methods and visualization using the SFML library. It includes tests for validating tree operations using the `doctest` framework.
 
+![Tree Visualization]("C:\Users\omar_\Pictures\Screenshots\Screenshot 2024-09-14 235515.png")
+
+
 ## Files Overview
 
 - **node.hpp / node.cpp**: Defines the `Node` class, representing individual nodes in the tree.
